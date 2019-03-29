@@ -229,11 +229,8 @@ footer {
 }
 @media (max-width:500px) {
   .home .intro {
-    width: 95%;
+    width: 100%;
     flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 .home .intro img {
@@ -243,7 +240,9 @@ footer {
 }
 @media (max-width:500px) {
   .home .intro img {
-    margin-left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .home .intro h2 {
@@ -254,7 +253,9 @@ footer {
 }
 @media (max-width:500px) {
   .home .intro p {
-    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .home .space-images {
@@ -264,6 +265,12 @@ footer {
 @media (max-width:500px) {
   .home .space-images {
     flex-direction: column;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
   }
 }
 .home .space-images img {
@@ -278,15 +285,14 @@ footer {
     width: 95%;
     justify-content: center;
   }
-  .home .space-images img .sky {
-    display: none;
-  }
-  .home .space-images img .launch {
-    display: none;
-  }
 }
 .home .visit-planets {
   padding: 15px;
+}
+@media (max-width:500px) {
+  .home .visit-planets {
+    margin-left: 4%;
+  }
 }
 .home .visit-planets h3 {
   margin-top: 11px;
