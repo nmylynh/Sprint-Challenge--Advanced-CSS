@@ -222,6 +222,29 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro {
+  padding-top: 110px;
+  padding-bottom: 10px;
+}
+@media (max-width:500px) {
+  .home .intro {
+    width: 95%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home .intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+@media (max-width:500px) {
+  .home .intro img {
+    margin-left: 6%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
