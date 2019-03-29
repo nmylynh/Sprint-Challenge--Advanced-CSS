@@ -196,6 +196,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 500px;
+  color: #454A59;
   padding-bottom: 20px;
 }
 @media (max-width:500px) {
